@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/login/login.less"],"names":[],"mappings":"AAAA;EACC,gBAAA;;AAGD;EACC,UAAA;;AAGD;EACC,UAAA;EACA,iBAAA","sourcesContent":[".weui-cells__title {\n\tfont-size: 38rpx;\n}\n\n.weui-cells {\n\twidth: 60%;\n}\n\nbutton {\n\twidth: 40%;\n\tmargin-top: 30rpx;\n}"],"file":"login.wxss"}

@@ -1,0 +1,9 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<view class="create">
+	<form bindsubmit="addTips" action="">
+		<image src="{{imgUrl}}" catchtap="addImage">添加群头像</image>
+		<input name="tipName" type="text" placeholder="请输入群名"/>
+		<button formType="submit" class="addTips" type="primary">提交</button>
+	</form>
+
+</view>

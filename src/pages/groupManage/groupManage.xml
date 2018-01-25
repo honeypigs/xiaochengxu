@@ -1,0 +1,14 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<view class="groupManage">
+	<text>基础功能</text>
+	<view class="navigate" catchtap='handle'><image src="../../images/handle.png"></image>在办消息</view>
+	<view class="navigate" catchtap='tips'><image src="../../images/tips.png"></image>关注消息类别</view>
+	<view class="navigate" catchtap='history'><image src="../../images/history.png"></image>历史消息</view>
+	<text class="manage">管理员功能</text>
+	<view class="navigate" catchtap='handle_m'><image src="../../images/handle_m.png"></image>在办消息状态</view>
+	<view class="navigate" catchtap='message_m'><image src="../../images/message_m.png"></image>群信息管理</view>
+	<view class="navigate" catchtap='tips_m'><image src="../../images/tips_m.png"></image>标签管理</view>
+	<button type="warn" catchtap='deletGroup' class="deletGroup">
+		解散该群
+	</button>
+</view>

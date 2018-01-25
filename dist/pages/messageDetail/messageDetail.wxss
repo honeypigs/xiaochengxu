@@ -1,0 +1,143 @@
+.messageDetail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #cccccc;
+}
+.history-item {
+  width: 80%;
+  height: 20%;
+  margin: 40rpx auto;
+  background-color: white;
+  border: 1rpx solid black;
+}
+.userName {
+  display: block;
+  height: 40rpx;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 28rpx;
+  text-align: left;
+  font-size: 40rpx;
+  color: #008808;
+}
+.time {
+  display: block;
+  height: 28rpx;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  text-align: left;
+  font-size: 28rpx;
+  color: #e1e2e1;
+}
+.title {
+  display: block;
+  height: 40rpx;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rpx;
+  text-align: left;
+  font-size: 40rpx;
+  color: #008808;
+}
+.content {
+  display: block;
+  height: 40rpx;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  text-align: left;
+  font-size: 32rpx;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.notAccetp {
+  height: 100rpx;
+  margin-top: 50rpx;
+  display: block;
+  width: 100%;
+  border-top: 1rpx solid black;
+  border-bottom: 1rpx solid black;
+  background-color: white;
+  font-size: 40rpx;
+}
+.notAccetp text {
+  display: block;
+  width: 40%;
+  text-align: center;
+  float: left;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.notAccetp .number {
+  display: block;
+  width: 40%;
+  text-align: center;
+  float: right;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: red;
+}
+.notFinish {
+  height: 100rpx;
+  margin-top: 50rpx;
+  display: block;
+  width: 100%;
+  border-top: 1rpx solid black;
+  border-bottom: 1rpx solid black;
+  background-color: white;
+  font-size: 40rpx;
+}
+.notFinish text {
+  display: block;
+  width: 40%;
+  text-align: center;
+  float: left;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.notFinish .number {
+  display: block;
+  width: 40%;
+  text-align: center;
+  float: right;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #ffcc00;
+}
+.finish {
+  height: 100rpx;
+  margin-top: 50rpx;
+  display: block;
+  width: 100%;
+  border-top: 1rpx solid black;
+  border-bottom: 1rpx solid black;
+  background-color: white;
+  font-size: 40rpx;
+}
+.finish text {
+  display: block;
+  width: 40%;
+  text-align: center;
+  float: left;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.finish .number {
+  display: block;
+  width: 40%;
+  text-align: center;
+  float: right;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: green;
+}
+button {
+  display: block;
+  width: 80%;
+  border-radius: 0;
+  margin-top: 100rpx;
+}

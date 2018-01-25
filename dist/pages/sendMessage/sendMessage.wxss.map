@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/sendMessage/sendMessage.less"],"names":[],"mappings":"AAAA;EACC,cAAA;EACA,YAAA;EACA,WAAA;EACA,yBAAA","sourcesContent":[".sendMessage {\n\tdisplay: block;\n\theight: 100%;\n\twidth: 100%;\n\tbackground-color: #cccccc;\n}\n"],"file":"sendMessage.wxss"}

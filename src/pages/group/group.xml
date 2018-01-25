@@ -1,0 +1,12 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<scroll-view scroll-y="true" class="group">
+	<view class="joinGroup" catchtap='joinGroup'>
+		加入一个群
+	</view>
+	<view class="group-list" id="{{item.id}}" catchtap='manage' wx:for="{{group}}">
+		<image src="../../images/未知状态.png"></image>
+		<text class="groupName">{{item.groupName}}</text>
+		<text class="state" wx:if="{{item.state == 1}}">有消息待办</text>
+	</view>
+	<view class="add" catchtap="add"><image src="../../images/add.png"></image></view>
+</scroll-view>

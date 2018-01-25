@@ -1,0 +1,10 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<view class="shareGroup">
+	<text>{{group.name}}\n在风马创建成功！\n快分享二维码和群号邀请小伙伴加入吧
+	</text>
+	<view class="code">
+		群号:{{group.number}}
+		<image src="../../images/add.png"></image>
+		<button type="primary">分享</button>
+	</view>
+</view>

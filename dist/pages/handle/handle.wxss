@@ -1,0 +1,139 @@
+.items {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #cccccc;
+}
+.now-item {
+  width: 80%;
+  height: 20%;
+  margin: 40rpx auto;
+  background-color: white;
+  border: 1rpx solid black;
+}
+.now-title {
+  display: block;
+  height: 28rpx;
+  width: 80%;
+  margin: 20rpx auto;
+  text-align: left;
+  font-size: 36rpx;
+  color: #cacaca;
+}
+.userName {
+  display: block;
+  height: 40rpx;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 28rpx;
+  text-align: left;
+  font-size: 40rpx;
+  color: #008808;
+}
+.title {
+  display: block;
+  height: 40rpx;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rpx;
+  text-align: left;
+  font-size: 40rpx;
+  color: #008808;
+}
+.content {
+  display: block;
+  height: 40rpx;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  text-align: left;
+  font-size: 32rpx;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.detail {
+  display: block;
+  position: fixed;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #088808;
+  font-size: 28rpx;
+}
+.detail .group {
+  display: block;
+  width: 100%;
+  height: 32rpx;
+  text-align: center;
+  color: white;
+  margin: 20rpx auto;
+  margin-top: 40rpx;
+}
+.detail .managerName,
+.detail .tip {
+  display: block;
+  width: 100%;
+  height: 32rpx;
+  text-align: center;
+  color: white;
+  margin: 8rpx auto;
+}
+.detail image {
+  display: block;
+  height: 100rpx;
+  width: 100rpx;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 10rpx;
+  background-color: gray;
+}
+.detail .detailContent {
+  overflow: hidden;
+  width: 100%;
+  height: 70%;
+  background-color: white;
+  margin-top: 80rpx;
+}
+.detail .title {
+  display: block;
+  width: 80%;
+  height: 28rpx;
+  font-size: 28rpx;
+  margin-top: 80rpx;
+  color: black;
+}
+.detail .endTime {
+  display: block;
+  width: 80%;
+  margin: 20rpx auto;
+  height: 28rpx;
+  font-size: 28rpx;
+  color: black;
+}
+.detail .content {
+  width: 80%;
+  height: 60%;
+  overflow: scroll;
+  text-overflow: inherit;
+  white-space: normal;
+}
+.shade {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(159, 159, 159, 0.8);
+}
+.hidden {
+  display: none;
+}

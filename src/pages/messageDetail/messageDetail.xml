@@ -1,0 +1,21 @@
+<view class="messageDetail">
+	<view class="history-item">
+		<text class="userName">{{message.userName}}</text>
+		<text class="time">{{message.time}}</text>
+		<text class="title">{{message.title}}</text>
+		<text class="content">{{message.content}}</text>
+	</view>
+	<view class="notAccetp">
+		<text>未接受</text>
+		<text class="number">{{detail.notAccetp}}</text>
+	</view>
+	<view class="notFinish" catchtap="notFinish">
+		<text>未完成</text>
+		<text class="number">{{detail.notFinish}}</text>
+	</view>
+	<view class="finish">
+		<text>已完成</text>
+		<text class="number">{{detail.finish}}</text>
+	</view>
+	<button type="warn" catchtap='send'>一键催收</button>
+</view>

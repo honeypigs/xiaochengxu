@@ -1,0 +1,84 @@
+.tips {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #cccccc;
+}
+.tips .item {
+  height: 100rpx;
+  margin-top: 50rpx;
+  display: block;
+  width: 100%;
+  border-top: 1rpx solid black;
+  border-bottom: 1rpx solid black;
+  background-color: white;
+  font-size: 40rpx;
+}
+.tips .item text {
+  display: block;
+  width: 40%;
+  text-align: center;
+  float: left;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.tips .item button {
+  display: block;
+  border-radius: 0;
+  width: 20%;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+  margin-right: 40rpx;
+}
+.tips .add {
+  display: block;
+  border-radius: 0;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+.tips form {
+  width: 400rpx;
+  height: 250rpx;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  margin: auto;
+  border: 1px solid black;
+  background-color: white;
+}
+.tips form input {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  height: 40rpx;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  padding-left: 20rpx;
+}
+.tips form .addTips {
+  display: block;
+  border-radius: 0;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 30rpx;
+  width: 50%;
+  margin: 80rpx auto;
+}
+.tips .shade {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(159, 159, 159, 0.8);
+}
+.tips .hidden {
+  display: none;
+}

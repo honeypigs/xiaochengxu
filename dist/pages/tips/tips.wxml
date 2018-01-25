@@ -1,0 +1,8 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<view class="tips">
+	<view class="item" wx:for='{{tips}}'>
+		<text>{{item.tipsName}}</text>
+		<button wx:if="{{item.focus == true}}" type="default" id="{{item.id}}" catchtap='focus'>已关注</button>
+		<button wx:if="{{item.focus == false}}" type="primary" id="{{item.id}}" catchtap='focus'>关注</button>
+	</view>
+</view>

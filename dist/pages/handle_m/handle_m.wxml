@@ -1,0 +1,11 @@
+<view class="container">
+	<scroll-view scroll-y="true" class="items" >
+		<view class='now-item' wx:for="{{message}}">
+			<view id="{{item.id}}" catchtap='showDetail'>
+				<text class="userName">{{item.userName}}</text>
+				<text class="now-title">{{item.title}}</text>
+				<text class="content">{{item.content}}</text>
+			</view>
+		</view>
+	</scroll-view>
+</view>

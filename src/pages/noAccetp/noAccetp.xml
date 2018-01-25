@@ -1,0 +1,17 @@
+<scroll-view scroll-y="true" class="notAccetp">
+	<view class="box" wx:for="{{groupUser}}">
+		<view class="group-list" id="{{item.id}}">
+			<image src="../../images/未知状态.png"></image>
+			<text class="groupName">{{item.userName}}</text>
+			<text class="phone">{{item.phone}}</text>
+		</view>
+		<view class='confirm-bar'>
+			<button type="default" class="call">
+				打电话
+			</button>
+			<button type="default" class="sendMessage">
+				发短信
+			</button>
+		</view>
+	</view>
+</scroll-view>

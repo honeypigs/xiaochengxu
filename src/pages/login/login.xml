@@ -1,0 +1,25 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<view class="container">
+  	<view class="weui-cells__title">
+  		账号
+  	</view>
+  	<view class="weui-cells">
+		<view class="weui-cell">
+	    	<view class="weui-cell__bd">
+	    		<input class="weui-input" type="text" placeholder="请输入账号" />
+	    	</view>
+		</view>
+	</view>
+	<view class="weui-cells__title">
+  		密码
+  	</view>
+  	<view class="weui-cells">
+		<view class="weui-cell">
+	    	<view class="weui-cell__bd">
+	    		<input class="weui-input" type="text" password="true" placeholder="请输入密码" />
+	    	</view>
+		</view>
+	</view>
+	<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login"> 登录 </button>
+	<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="resign"> 注册 </button>
+</view>

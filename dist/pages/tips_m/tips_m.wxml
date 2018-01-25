@@ -1,0 +1,13 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<scroll-view scroll-y="true" class="tips">
+	<view class="item" wx:for='{{tips}}'>
+		<text>{{item.tipsName}}</text>
+		<button type="warn" id="{{item.id}}" catchtap='delet'>删除</button>
+	</view>
+	<button class="add" type="primary" catchtap='add'>创建标签</button>
+	<view class="shade {{blur?'hidden':''}}" catchtap='hide'></view>
+	<form bindsubmit="addTips" action="" class="{{blur?'hidden':''}}">
+		<input name="tipName" type="text" placeholder="请输入标签名"/>
+		<button formType="submit" class="addTips" type="primary">添加标签</button>
+	</form>
+</scroll-view>

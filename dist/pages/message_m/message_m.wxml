@@ -1,0 +1,11 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<scroll-view scroll-y="true" class="message_m">
+	<view class="joinGroup">
+		{{groupName}}
+	</view>
+	<view class="group-list" id="{{item.id}}" wx:for="{{groupUser}}">
+		<image src="../../images/未知状态.png"></image>
+		<text class="groupName">{{item.userName}}</text>
+		<text class="phone">{{item.phone}}</text>
+	</view>
+</scroll-view>

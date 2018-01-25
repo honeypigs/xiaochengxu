@@ -1,0 +1,22 @@
+<view class="container">
+	<scroll-view scroll-y="true" class="items">
+		<view class="history-item" catchtap='showDetail' wx:for="{{historyMessage}}">
+			<text class="userName">{{item.userName}}</text>
+			<text class="time">{{item.time}}</text>
+			<text class="title">{{item.title}}</text>
+			<text class="content">{{item.content}}</text>
+		</view>
+	</scroll-view>
+</view>
+<view class="shade {{blur_detail?'hidden':''}}" catchtap='hide'></view>
+<view class="detail {{blur_detail?'hidden':''}}" catchtap='hide'>
+		<text class="group">{{detail.group}}</text>
+		<text class="managerName">{{detail.managerName}}</text>
+		<text class="tip">{{detail.tip}}</text>
+		<image src="../../images/未知状态.png"></image>
+		<view class="detailContent">
+			<text class="title">{{detail.title}}</text>
+			<text class="endTime">{{detail.endTime}}</text>
+			<text class="content">{{detail.content}}</text>
+		</view>
+</view>

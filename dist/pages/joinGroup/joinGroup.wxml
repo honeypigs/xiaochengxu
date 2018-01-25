@@ -1,0 +1,10 @@
+<!-- 可用组件：https://mp.weixin.qq.com/debug/wxadoc/dev/component/ -->
+<view class="joinGroup">
+	<text>请选择一种方式加群</text>
+	<view class="join" catchtap='scanCode'><image src="../../images/camera.png"></image>扫一扫</view>
+	<view class="join" catchtap='album'><image src="../../images/album.png"></image>相册中的二维码</view>
+	<view class="join" catchtap='number'><image src="../../images/number.png"></image>群号</view>
+	<view class="shade {{blur?'hidden':''}}" catchtap='hide'></view>
+	<image src="{{ imgUrl }}" class="code {{blur?'hidden':''}}" alt=""/>
+
+</view>
